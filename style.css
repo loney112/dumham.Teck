@@ -1,0 +1,170 @@
+.topnav{
+overflow: hidden;
+background-color: #333;
+float: left;
+max-width:650px ;
+max-height:550px ;
+border-radius: 10px;
+
+
+}
+.topnav{display: flex;
+  top: 0;
+  width:100% ;
+  z-index: 1000;
+  position: fixed;
+  height:60px ;
+  
+  
+}
+  
+.topnav a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f3f3f3;
+  padding: 0px 10px;
+  border: #af4c4c ;
+  margin: 20px 5px;
+}
+.topnav a :hover{
+  background-color: #ddd;
+  color: black;
+}
+  
+.topnav a.active{
+  
+  background-color: #04aa6d;
+
+  color: white;
+}
+
+body{
+   background-image: linear-gradient(to right, #1e3c72 ,#f3de1f);
+   margin: 0 auto;
+   margin-top: -10px;
+  padding: 20px;
+}
+
+h1{
+  background-color: #ddd;
+  text-align: center;
+border: #af4c4c 2px solid;
+margin:   auto 150px;
+border-radius: 15px;
+
+}
+.in{
+  background-color: rgb(0, 0, 0);
+  display: inline-table;
+  color: #ddd;
+  text-align: center;
+  max-width: 650px;
+  padding: 15px 10px ;
+  border-radius:20px ;
+  
+}
+
+ul ,ol{
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+.container{
+  max-width: 700px;
+  
+  margin: 55px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#reviews{
+  padding: 40px;
+  background-color: #1b1010;
+  text-align: center;
+  margin-top:25px ;
+  border-radius: 15px;
+  
+}
+.review{
+  color: white;
+  margin-bottom: 15px;
+padding: 15px;
+border-radius: 8px;
+margin: auto auto;
+max-width: 300px;
+box-shadow: 0 0 10px;
+
+}
+#lo{
+  border-radius:12px ;
+  cursor: on;
+}
+#faq{
+  background-color: #f3f3f3;
+  border-radius:9px ;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow:2px 2px 10px rgba(0,0,0,0.1);
+}
+.faq-answer {
+  display: none;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+}
+.faq-question {
+  cursor: pointer;
+}
+.faq-item.active .faq-answer {
+  display: block;
+  padding: 10px;
+  color: azure;
+  background-color: #462828;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#fa-youtube {
+margin-top:25px ;
+  bottom: 20px;
+  right: 20px;
+  font-size: 100px;
+  color: #f00;
+}
+#fa-youtube:hover {
+  color: #c40101;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+#fa-whatsapp {
+  margin-top:25px ;
+  bottom: 20px;
+  right: 20px;
+  font-size: 100px;
+  color: #0d8d3c;
+}
+#fa-whatsapp:hover {
+  color: #035c23;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+#fa-tiktok {
+  margin-top:25px ;
+  bottom: 20px;
+  right: 20px;
+  font-size: 100px;
+  color: #131313;
+}
+#fa-tiktok:hover {
+  color: #070707;
+  
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+footer{
+  text-align: center;
+  padding: 10px 10px;
+  margin: 12px 11px;
+  background-color: #222;
+  color: #fff;
+  font-size:15px ;
+  border-radius:12px ;
+
+}
